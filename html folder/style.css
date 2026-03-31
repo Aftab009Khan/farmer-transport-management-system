@@ -2,6 +2,7 @@ body{
     margin: 35px;
     font-family:  Arial;
     background: #f2f4f2
+    padding: 0;
     
 
 }
@@ -145,7 +146,7 @@ body{
 .request-container button:hover {
   background: #1b5e20;
 }
-/* Image */
+
 .hero {
   text-align: center;
   margin-top: 20px;
@@ -153,36 +154,52 @@ body{
 }
 
 .hero-img {
-  height: 300;
-  width:200%;
-  max-width: 800px;
+  height: 700px;
+  width:400%;
+  max-width: 1500px;
   border-radius: 10px;
-  
+}
 
-/* Info section */
 .info {
-  width: 85%;
-  max-width: 1000px;
+  width: 90%;
+  max-width: 1200px;
   margin: 30px auto;
-  text-align: justify;
-  background: #67b16a;
+  text-align: left;
+  background: white;
   margin-top: auto;
 }
 .info p{
   font-size: 26px;
-  line-height: 1.8;
+  line-height: 2.1;
   color: #333;
 }
 
 .info h2 {
+  
+  font-size: 26px;
+  line-height: 2.1;
   color: #67b16a;
-    font-size: 26px;
 
 }
 
 .info ul {
-  list-style: none;
-  padding: 50;
+  
   font-size: 26px;
-
+  line-height: 2.1;
+  list-style: none;
+  padding: 0;
+}
+.info li {
+  
+  font-size: 26px;
+  line-height: 2.1;
+  list-style: none;
+  padding: 0;
+}
+.info b {
+  
+  font-size: 26px;
+  line-height: 2.1;
+  list-style: none;
+  padding: 0;
 }
